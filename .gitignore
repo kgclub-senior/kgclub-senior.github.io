@@ -1,0 +1,18 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# macOS用
+.DS_Store
+
+# Node関連
+node_modules/
+package-lock.json
+
+# VSCode関連
+.vscode/
+
+# 出力CSSファイル（Tailwindの生成物）
+assets/css/output.css
