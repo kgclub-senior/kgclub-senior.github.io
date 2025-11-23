@@ -1,3 +1,21 @@
 html {
   overflow-y: scroll;
 }
+
+/* 画像の背景色を削除 - より強力なセレクタ */
+img,
+.post img,
+.post-content img,
+article img,
+.prose img,
+div img,
+a img {
+  background-color: transparent !important;
+  background: none !important;
+}
+
+/* 特定のクラスも上書き */
+.post-header-image img {
+  background-color: transparent !important;
+  background: none !important;
+}
